@@ -29,4 +29,5 @@ def FizzBuzz(valor_maximo):
             print(num)
     return
 
+FizzBuzz(100)
 
