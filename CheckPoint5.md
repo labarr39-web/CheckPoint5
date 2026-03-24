@@ -59,8 +59,8 @@
         else:
             # comandos a ejecutar si NO se cumple la condición.
     ```
-
-    <br><br>La clausula elif (else if) permite implementar una segunda condición con una sola instrucción.<br><br>
+    <br><br>
+    La clausula elif (else if) permite implementar una segunda condición con una sola instrucción.<br><br>
 
 
     ```python
@@ -71,6 +71,7 @@
     else:
         # comandos a ejecutar si NO se cumple la condición.
     ```
+    <br><br>
 
 
 2. ***¿Cuáles son los diferentes tipos de bucles en Python? ¿Por qué son útiles?***
