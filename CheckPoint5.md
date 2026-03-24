@@ -48,7 +48,7 @@
 
     Las condicionales se pueden anidar para comprobar varias condicones, cada una dependiente del resultado de la anterior.
 
-    Hay dos formas de implementarlo.
+    Hay dos formas de implementarlo.<br><br>
 
     ```python
     if condición:
@@ -60,7 +60,8 @@
             # comandos a ejecutar si NO se cumple la condición.
     ```
 
-    La clausula elif (else if) permite implementar una segunda condición con una sola instrucción.
+    <br><br>La clausula elif (else if) permite implementar una segunda condición con una sola instrucción.<br><br>
+
 
     ```python
     if condición:
