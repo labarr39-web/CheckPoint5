@@ -23,9 +23,9 @@
     | >= | Mayor o Igual | Comprueba si el primer valor es mayor o igual que el segundo |
     | <= | Menor o Igual | Comprueba si el primer valor es menor o igual que el segundo |
 
-    Ejemplo:
-
     <br><br>
+    
+    Ejemplo:
 
     ```python
     print(3 > 4) # False
@@ -53,13 +53,14 @@
     else:
         # comandos a ejecutar si NO se cumple la condición.
     ```
-
     <br><br>
+
     - ***IF... ELIF... ELSE***
 
     Las condicionales se pueden anidar para comprobar varias condicones, cada una dependiente del resultado de la anterior.
 
     Hay dos formas de implementarlo.
+
     <br><br>
 
     ```python
@@ -79,12 +80,12 @@
 
 
     ```python
-    if condición:
+    if condición1:
         # comandos a ejecutar si se cumple la condición.
     elif condición2:
-         # comandos a ejecutar si se cumple la condición.
+         # comandos a ejecutar si NO se cumple condición1 pero SI condición2.
     else:
-        # comandos a ejecutar si NO se cumple la condición.
+        # comandos a ejecutar si NO se cumple ninguna de las condiciones.
     ```
     <br><br>
 
