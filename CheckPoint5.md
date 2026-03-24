@@ -1,6 +1,6 @@
 ## CheckPoint 5
 
-#### 1. ***¿Qué es un condicional?*** ###
+ 1. ***¿Qué es un condicional?***
 
     Una condicional o declaración condicional permite controlar la toma de decisiones y las acciones que ejecutará el programa.
 
