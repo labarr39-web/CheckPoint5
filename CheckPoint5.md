@@ -33,6 +33,8 @@
 
     - Condicional ***IF... ELSE***
 
+    Es importante llevar una buena indexación del texto, ya que de ello depende que un comando sea ejecutado como parte de la condición o no.
+
     Esta es su sintaxis
 
     ```python
@@ -41,6 +43,34 @@
     else:
         # comandos a ejecutar si NO se cumple la condición.
     ```
+
+    - ***IF... ELIF... ELSE***
+
+    Las condicionales se pueden anidar para comprobar varias condicones, cada una dependiente del resultado de la anterior.
+
+    Hay dos formas de implementarlo.
+
+    ```python
+    if condición:
+        # comandos a ejecutar si se cumple la condición.
+    else:
+        if condición2:
+             # comandos a ejecutar si se cumple la condición.
+        else:
+            # comandos a ejecutar si NO se cumple la condición.
+    ```
+
+    La clausula elif (else if) permite implementar una segunda condición con una sola instrucción.
+
+    ```python
+    if condición:
+        # comandos a ejecutar si se cumple la condición.
+    elif condición2:
+         # comandos a ejecutar si se cumple la condición.
+    else:
+        # comandos a ejecutar si NO se cumple la condición.
+    ```
+
 
 2. ***¿Cuáles son los diferentes tipos de bucles en Python? ¿Por qué son útiles?***
 
