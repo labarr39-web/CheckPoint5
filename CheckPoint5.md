@@ -28,9 +28,18 @@
     print(3 != 4) # True
     print(3 >= 4) # False
     print(3 <= 4) # True
+    ```
 
+    - Condicional *** IF... ELSE***
 
+    Esta es su sintaxis
 
+    ```python
+    if condición:
+        # comandos a ejecutar si se cumple la condición.
+    else:
+        # comandos a ejecutar si NO se cumple la condición.
+    ```
 
 
 
