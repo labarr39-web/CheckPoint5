@@ -1,9 +1,13 @@
-# Hola
+## CheckPoint 5
 
-<!-- 
-This file needs to end with a single newline character.
-The MD047 linting rule requires that all markdown files terminate with exactly one newline at the end of the file.
-Add a newline after the last line of content.
--->
-## Esto es una prueba
-/
+1. ***¿Qué es un condicional?
+
+2. ***¿Cuáles son los diferentes tipos de bucles en Python? ¿Por qué son útiles?
+
+3. ***¿Qué es una lista por comprensión en Python?
+
+4. ***¿Qué es un argumento en Python?
+
+5. ***¿Qué es una función Lambda en Python?
+
+6. ***¿Qué es un paquete pip?
