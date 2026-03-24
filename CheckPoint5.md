@@ -62,7 +62,7 @@
     <br><br>
     La clausula elif (else if) permite implementar una segunda condición con una sola instrucción.<br><br>
 
-
+    <br><br>
     ```python
     if condición:
         # comandos a ejecutar si se cumple la condición.
