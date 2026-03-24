@@ -1,8 +1,9 @@
 ## CheckPoint 5
 
+    <br><br>
+
  1. ***¿Qué es un condicional?***
 
-    <br><br>
 
     Una condicional o declaración condicional permite controlar la toma de decisiones y las acciones que ejecutará el programa.
 
@@ -24,7 +25,7 @@
     | <= | Menor o Igual | Comprueba si el primer valor es menor o igual que el segundo |
 
     <br><br>
-    
+
     Ejemplo:
 
     ```python
