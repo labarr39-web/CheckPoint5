@@ -64,12 +64,13 @@
     Hay dos formas de implementarlo:  
 
     <br>
+
     Una  es introduciendo un segundo `if` dentro del primero, bien en la parte del `if` o dentro de la parte del `else`, todo depende de la casuistica que se necesite.  
 
     <br><br>  
 
     - ***IF... ELIF... ELSE***
-<br><br>
+    <br><br>
 
     ```python
     if condición:
@@ -80,18 +81,17 @@
         else:
             # comandos a ejecutar si NO se cumple la condición.
     ```
+    <br><br>
 
-<br>
+    La clausula elif (else if) permite implementar una segunda condición con una sola instrucción, pudiendo anidarse tantas como sean necesarias.
 
-La clausula elif (else if) permite implementar una segunda condición con una sola instrucción
-
-<br><br>
+    <br>
 
     ```python
     if condición1:
         # comandos a ejecutar si se cumple la condición.
     elif condición2:
-         # comandos a ejecutar si NO se cumple condición1 pero SI condición2.
+            # comandos a ejecutar si NO se cumple condición1 pero SI condición2.
     else:
         # comandos a ejecutar si NO se cumple ninguna de las condiciones.
     ```
