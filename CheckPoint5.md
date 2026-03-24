@@ -2,7 +2,7 @@
 
  1. ***¿Qué es un condicional?***
 
-<br><br>
+    <br><br>
 
     Una condicional o declaración condicional permite controlar la toma de decisiones y las acciones que ejecutará el programa.
 
@@ -12,7 +12,7 @@
 
     A continuación se muestran cuales son
 
-<br><br>
+    <br><br>
 
     | Operador | Nombre | Descripción |
     |:--------:|:-------|:------------|
@@ -25,7 +25,7 @@
 
     Ejemplo:
 
-<br><br>
+    <br><br>
 
     ```python
     print(3 > 4) # False
@@ -36,7 +36,7 @@
     print(3 >= 4) # False
     print(3 <= 4) # True
     ```
-<br><br>
+    <br><br>
 
     - Condicional ***IF... ELSE***
 
@@ -44,7 +44,7 @@
 
     Esta es su sintaxis
     
-<br><br>
+    <br><br>
 
 
     ```python
@@ -54,13 +54,13 @@
         # comandos a ejecutar si NO se cumple la condición.
     ```
 
-<br><br>
+    <br><br>
     - ***IF... ELIF... ELSE***
 
     Las condicionales se pueden anidar para comprobar varias condicones, cada una dependiente del resultado de la anterior.
 
     Hay dos formas de implementarlo.
-<br><br>
+    <br><br>
 
     ```python
     if condición:
@@ -72,10 +72,10 @@
             # comandos a ejecutar si NO se cumple la condición.
     ```
 
-<br><br>
+    <br><br>
     La clausula elif (else if) permite implementar una segunda condición con una sola instrucción
     
-<br><br>
+    <br><br>
 
 
     ```python
@@ -86,7 +86,7 @@
     else:
         # comandos a ejecutar si NO se cumple la condición.
     ```
-<br><br>
+    <br><br>
 
 
 2. ***¿Cuáles son los diferentes tipos de bucles en Python? ¿Por qué son útiles?***
