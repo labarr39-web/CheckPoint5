@@ -513,4 +513,28 @@
 
  1. ***¿Qué es un paquete pip?***  
 
-<br>
+    <br>
+    Un paquete pip es un conjunto de módulos o librerías de Python que están empaquetados y publicados en PyPI para que puedan ser instalados fácilmente usando pip. Estos paquetes pueden contener código reutilizable, herramientas, frameworks, o cualquier tipo de funcionalidad que se pueda importar y usar en proyectos Python.  
+
+    <br>  
+    ¿Qué es pip?  
+    
+    <br>
+
+    Pip es una herramienta que permite instalar, actualizar y desinstalar paquetes de Python desde el repositorio oficial llamado PyPI (Python Package Index). Facilita la gestión de bibliotecas y módulos que los desarrolladores pueden usar para ampliar las funcionalidades de sus programas.  
+
+    <br>
+
+    Ejemplo de uso:  
+
+    <br>
+    Para instalar un paquete, por ejemplo requests (una librería para hacer solicitudes HTTP), se usa el comando en la terminal  
+
+    <br>  
+    
+
+    ```
+    pip install requests
+    ```  
+    <br>
+    Esto descarga e instala el paquete requests y sus dependencias para que puedas usarlo en tu código.
