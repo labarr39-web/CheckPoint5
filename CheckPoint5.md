@@ -71,9 +71,6 @@
 
     <br>  
 
-    - ***IF... ELIF... ELSE***
-    <br><br>
-
     ```python
     if condición:
         # comandos a ejecutar si se cumple la condición.
@@ -82,11 +79,13 @@
              # comandos a ejecutar si se cumple la condición.
         else:
             # comandos a ejecutar si NO se cumple la condición.
-    ```
+    ```  
+    <br><br>  
 
+    - ***IF... ELIF... ELSE***
     <br><br>
 
-    La clausula elif (else if) permite implementar una segunda condición con una sola instrucción, pudiendo anidarse tantas como sean necesarias.
+    La clausula elif (else if) permite implementar una segunda condición en la parte del `else` con una sola instrucción, pudiendo anidarse tantas como sean necesarias.
 
     <br>
 
@@ -107,13 +106,13 @@
 
     Comencemos por saber qué es un bucle en programación.  
     <br>
-    Un bucle es un conjunto de acciones que se repiten un número determinado de veces, hasta que se cumpla una condición o se le indique mediante un comando que debe salir de él.  
+    Un bucle es un conjunto de acciones que se repiten un número determinado de veces, hasta que se cumpla una condición, o hasta que se le indique mediante un comando que debe salir de él.  
     <br>
     Resultan esenciales cuando se trata de acciones repetitivas, como por ejemplo buscar algo en una lista o diccionario.  
     <br>
 
     En Python hay dos estructuras para ello:  
-    <br><br>
+    <br>
     - ***FOR.. IN... :***  
     <br>
 
@@ -181,12 +180,12 @@
     '''
     Resultado
 
-    A1
-    A2
-    A3
-    B1
-    B2
-    B3
+    A 1
+    A 2
+    A 3
+    B 1
+    B 2
+    B 3
     '''
     ```  
     <br><br>
@@ -251,7 +250,7 @@
     <br><br>
     La declaración `continue` se usa para saltar la iteración actual y pasar a la siguiente iteración del bucle.  
     <br>
-        Aquí hay un ejemplo para usar la declaración continue en lugar de una declaración break:  
+        Aquí hay un ejemplo de cómo usar la declaración continue:  
      <br>  
      ```python
     nombres = ['Jose', 'Pedro', 'Pablo']
@@ -277,7 +276,7 @@
  3. ***¿Qué es una lista por comprensión en Python?***  
  
     <br>  
-    La lista por comprensión permite agrupar un bucle e incluso un condicional y asignar el resultado a una variable en una sola línea de código en lugar de hacerlo en varias.  
+    La lista por comprensión permite agrupar un bucle e incluso un condicional, y asignar el resultado a una variable; todo ello en una sola línea de código en lugar de hacerlo en varias.  
     <br><br>  
 
     ```python
@@ -303,8 +302,8 @@
     numeros_pares = []
 
     for num in range(1,21):
-    if num % 2 == 0:
-        numeros_pares.append(num)
+        if num % 2 == 0:
+            numeros_pares.append(num)
     
     print(numeros_pares)
 
@@ -319,7 +318,7 @@
  1. ***¿Qué es un argumento en Python?***  
 
     <br>    
-    En Python, un argumento (argument) es el valor concreto que le pasas a una función cuando la llamas. Es distinto del parámetro, que es la variable definida en la firma de la función y que recibe ese valor.  
+    En Python, un argumento es el valor concreto que le pasas a una función cuando la llamas. Es distinto del parámetro, que es la variable definida en la firma de la función y que recibe ese valor.  
     
     <br>  
     
@@ -353,23 +352,27 @@
 
         Posicionales:  
         
-        El orden importa  
+        El orden importa.  
         <br>
 
         ```python
         def f(x, y): ... f(1, 2)
-        # 1 → x, 2 → y
+        '''
+        1 → x, 2 → y
+
+        No es lo mismo x/y que y/x
+        '''
         ```  
         <br>  
 
         Por palabra:  
         
-        Indicas el nombre del parámetro  
+        Indicas el nombre del parámetro; al indicarse con un nombre, el orden no importa.  
         <br>
 
         ```python
          f(y=2, x=1)
-         # orden no importa
+         # El orden no importa
         ```  
         <br>
 
@@ -421,9 +424,7 @@
 
     <br>  
 
-    Al trabajar con funciones lambda, es importante estar al tanto de las mejores prácticas.
-
-    Las mejores prácticas para usar funciones lambda incluyen no asignarlas a una variable, mantenerlas simples y legibles, y usarlas para funciones cortas y puntuales.  
+    Al trabajar con funciones lambda, es importante estar al tanto de las mejores prácticas; estas incluyen no asignarlas a una variable, mantenerlas simples y legibles, y usarlas para funciones cortas y puntuales.  
 
     Veamos algunos ejemplos  
     
@@ -432,7 +433,7 @@
     ```python
     numeros = [1, 2, 3, 4, 5]
 
-    cuadrado = lambda x: x ** 2
+    cuadrado = lambda x: x * x
     numeros_cuadrado = list(map(cuadrado, numeros))
     print(numeros_cuadrado)
     
@@ -444,17 +445,17 @@
     ```  
     <br>  
 
-    Esto va en contra del propósito de usar funciones anónimas. En este caso, deberías usar una función regular, así:  
+    Esto va en contra del propósito de usar funciones anónimas. En este caso, se debería usar una función regular, así:  
     <br>  
     
     ```python
-    numbers = [1, 2, 3, 4, 5]
+    numeros = [1, 2, 3, 4, 5]
 
-    def square(num):
-        return num ** 2
+    def cuadrado(num):
+        return num * num
 
-    squared_numbers = list(map(square, numbers))
-    print(squared_numbers)
+    numeros_cuadrado = list(map(cuadrado, numeros))
+    print(numeros_cuadrado)
     
     '''
     Resultado
@@ -464,7 +465,7 @@
     ```  
     <br>  
 
-    Además, debes evitar crear funciones lambda que sean difíciles de leer o innecesariamente complicadas, como esta:  
+    Además, se debe evitar crear funciones lambda que sean difíciles de leer o innecesariamente complicadas, como esta:  
     <br>  
 
     ```python
@@ -481,7 +482,7 @@
     <br>  
 
     Aunque esta función se ejecuta bien y produce el resultado correcto (14), no es fácil de leer ni de entender.  
-    <br>  
+    <br>
     En este caso, sería mejor crear una función separada con una estructura if/else, y luego llamar a esa función  
     <br>  
 
@@ -504,7 +505,7 @@
 
     Tanto las funciones regulares como las funciones lambda tienen sus casos de uso en programas de Python.  
     <br>
-    Si estás trabajando con una sola expresión en línea, entonces podrías considerar usar una función lambda. De lo contrario, usar una función regular sería la mejor opción.
+    Si se está trabajando con una sola expresión en línea, entonces se podría considerar usar una función lambda. De lo contrario, usar una función regular sería la mejor opción.
 
 
 
@@ -521,7 +522,7 @@
     
     <br>
 
-    Pip es una herramienta que permite instalar, actualizar y desinstalar paquetes de Python desde el repositorio oficial llamado PyPI (Python Package Index). Facilita la gestión de bibliotecas y módulos que los desarrolladores pueden usar para ampliar las funcionalidades de sus programas.  
+    Pip es una herramienta que permite instalar, actualizar y desinstalar paquetes de Python desde el repositorio oficial llamado [PyPI](https://pypi.org) (Python Package Index). Facilita la gestión de bibliotecas y módulos que los desarrolladores pueden usar para ampliar las funcionalidades de sus programas.  
 
     <br>
 
