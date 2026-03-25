@@ -537,4 +537,4 @@
     pip install requests
     ```  
     <br>
-    Esto descarga e instala el paquete requests y sus dependencias para que puedas usarlo en tu código.
+    Esto descarga e instala el paquete requests y sus dependencias para que pueda usarse en el código.
