@@ -326,26 +326,70 @@
 
     - *Parámetro vs argumento*  
 
-    | Parámetro | Argumento |  
-    |-----------|-----------|
-    |La variable en la definición de la función|El valor que se pasa al llamar|
-    |
-    ```python
-    def sumar(a, b):
-    # a y b son parámetros
-    ```
-    |
-    ```python
-    sumar(2, 3)
-    # 2 y 3 son argumentos
-    ```
-    |
+        Parámetro:  
+    La variable en la definición de la función  
+        <br>
 
-    Argumentos posicionales y por palabra (keyword)
-    Posicionales: el orden importa. def f(x, y): ... f(1, 2) # 1 → x, 2 → y
-    Por palabra: indicas el nombre del parámetro. f(y=2, x=1) # orden no importa
-    Valores por defecto
-    Puedes dar un valor por defecto a parámetros; si no pasas argumento, se usa ese valor. def saludar(nombre="mundo"): print("Hola", nombre) saludar() # Hola mundo saludar("Ana") # Hola Ana
+        ```python
+        def sumar(a, b):
+        # a y b son parámetros
+        ```  
+       <br>  
+
+        Argumento:  
+
+        El valor que se pasa al llamar  
+
+       <br>  
+
+        ```python
+        sumar(2, 3)
+        # 2 y 3 son argumentos
+        ```
+    <br>  
+
+
+    - *Argumentos posicionales y por palabra (keyword)*  
+
+        Posicionales:  
+        
+        El orden importa  
+        <br>
+
+        ```python
+        def f(x, y): ... f(1, 2)
+        # 1 → x, 2 → y
+        ```  
+        <br>  
+
+        Por palabra:  
+        
+        Indicas el nombre del parámetro  
+        <br>
+
+        ```python
+         f(y=2, x=1)
+         # orden no importa
+        ```  
+        <br>
+
+        Valores por defecto:  
+
+        Puedes dar un valor por defecto a parámetros; si no pasas argumento, se usa ese valor  
+        <br>
+
+        ```python
+        def saludar(nombre="mundo"):
+            print("Hola", nombre)
+            
+        saludar()
+        # Hola mundo
+        
+        saludar("Ana")
+        # Hola Ana
+        ```  
+        <br><br>  
+
 
  1. ***¿Qué es una función Lambda en Python?***  
 
